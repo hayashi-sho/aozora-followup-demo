@@ -1,12 +1,10 @@
-AOZORA. 見積フォロー Pro — GitHub Pages用パッケージ
+AOZORA. 見積フォロー Pro v3
 
-ファイル: index.html / manifest.webmanifest / sw.js / icon-192.png / icon-512.png
+変更点:
+- 期限超過・今日対応・3日以内の区分
+- 期限超過と本日対応の見積金額の可視化
+- 期限と見積金額に基づく優先順位
+- v2のlocalStorageデータをそのまま引き継ぎ
 
-公開方法（GitHub Pages Freeでは原則、公開リポジトリが必要）:
-1. 個人情報を含めず、新しい公開リポジトリ aozora-followup-demo を作成。
-2. 5ファイルをリポジトリのルートにアップロード。
-3. Settings > Pages > Build and deployment > Deploy from a branch > main / (root) > Save。
-4. 発行URLをiPhoneのSafariで開き、共有 > ホーム画面に追加。
-
-重要：これはデモ版です。クラウド同期・ログイン・課金・バックエンド通知・実AI生成は未搭載。案件データは使用中のブラウザのlocalStorageに保存されるだけで、他端末には同期されません。Safariのデータ削除などで消えることがあるため、定期的にバックアップを取得してください。公開デモには実顧客の個人情報を登録しないでください。
-GitHub Pagesは認証・秘密データ保管・サブスク会員制限の仕組みではありません。
+導入: 既存GitHub Pagesリポジトリのルートにindex.htmlとsw.jsを上書きアップロードしコミット。その他のアイコン等は変更不要です。
+注意: 背景プッシュ通知は未搭載です。個人情報を登録せず架空データで検証してください。
